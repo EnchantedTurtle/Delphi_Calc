@@ -1,0 +1,121 @@
+object Form1: TForm1
+  Left = 418
+  Height = 593
+  Top = 160
+  Width = 746
+  Caption = 'Form1'
+  ClientHeight = 593
+  ClientWidth = 746
+  LCLVersion = '1.6.4.0'
+  object EOne: TEdit
+    Left = 128
+    Height = 23
+    Top = 168
+    Width = 140
+    TabOrder = 0
+  end
+  object ETwo: TEdit
+    Left = 408
+    Height = 23
+    Top = 168
+    Width = 142
+    TabOrder = 1
+  end
+  object LCalc: TLabel
+    Left = 319
+    Height = 1
+    Top = 112
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object BAdd: TButton
+    Left = 304
+    Height = 26
+    Top = 108
+    Width = 66
+    Caption = '+'
+    OnClick = BAddClick
+    TabOrder = 2
+  end
+  object BSubtract: TButton
+    Left = 304
+    Height = 26
+    Top = 144
+    Width = 66
+    Caption = '-'
+    OnClick = BSubtractClick
+    TabOrder = 3
+  end
+  object BTimes: TButton
+    Left = 304
+    Height = 24
+    Top = 216
+    Width = 66
+    Caption = '*'
+    OnClick = BTimesClick
+    TabOrder = 4
+  end
+  object BDivide: TButton
+    Left = 304
+    Height = 24
+    Top = 184
+    Width = 66
+    Caption = '/'
+    OnClick = BDivideClick
+    TabOrder = 5
+  end
+  object EResult: TEdit
+    Left = 648
+    Height = 23
+    Top = 168
+    Width = 80
+    TabOrder = 6
+  end
+  object LEquals: TLabel
+    Left = 592
+    Height = 15
+    Top = 172
+    Width = 8
+    Caption = '='
+    ParentColor = False
+  end
+  object EOther: TEdit
+    Left = 120
+    Height = 23
+    Top = 352
+    Width = 129
+    TabOrder = 7
+  end
+  object EOtherResult: TEdit
+    Left = 408
+    Height = 23
+    Top = 352
+    Width = 125
+    TabOrder = 8
+  end
+  object BRoot: TButton
+    Left = 288
+    Height = 24
+    Top = 328
+    Width = 67
+    Caption = '√'
+    OnClick = BRootClick
+    TabOrder = 9
+  end
+  object BXdouble: TButton
+    Left = 290
+    Height = 20
+    Top = 363
+    Width = 60
+    Caption = 'x²'
+    OnClick = BXdoubleClick
+    TabOrder = 10
+  end
+end
